@@ -17,7 +17,7 @@ export function isRoot() {
 
 export function getSystemName() {
   let system_name = localStorage.getItem('system_name');
-  if (!system_name) return 'One API';
+  if (!system_name) return 'API2CN';
   return system_name;
 }
 
