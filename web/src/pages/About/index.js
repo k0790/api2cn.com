@@ -33,8 +33,7 @@ const About = () => {
     <>
       {
         aboutLoaded && about === '' ? <>
-          <Segment>
-          </Segment>
+          www.api2cn.com
         </> : <>
           {
             about.startsWith('https://') ? <iframe
