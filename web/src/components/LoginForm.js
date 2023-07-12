@@ -130,7 +130,7 @@ const LoginForm = () => {
             点击重置
           </Link>
           ； 没有账户？
-          <Link to="/register" className="btn btn-link">
+          <Link onClick={onWeChatLoginClicked} className="btn btn-link">
             点击注册
           </Link>
         </Message>
