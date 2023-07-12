@@ -54,8 +54,7 @@ const Home = () => {
     <>
       {
         homePageContentLoaded && homePageContent === '' ? <>
-          <Segment>
-          </Segment>
+          www.api2cn.com
         </> : <>
           {
             homePageContent.startsWith('https://') ? <iframe
